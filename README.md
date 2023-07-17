@@ -1,6 +1,6 @@
 ## Todo List App using useState()
 
-#### Live Preview: [Todo App]()
+#### Live Preview: [Todo App](https://sajal-ostad-todo.netlify.app/)
 
 ## Requirements:
 

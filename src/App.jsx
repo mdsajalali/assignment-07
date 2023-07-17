@@ -23,10 +23,11 @@ function TodoListApp() {
 
   return (
     <div className="container mx-auto max-w-md p-4">
-      <h1 className="text-2xl font-bold mb-4">To-Do List</h1>
+      <h1 className="text-2xl font-bold mb-4">ToDo List</h1>
       <div className="flex mb-4">
         <input
           type="text"
+          placeholder="Create a new todo..."
           value={newTask}
           onChange={handleInputChange}
           className="flex-grow p-2 border border-gray-300 rounded-l"
@@ -42,7 +43,7 @@ function TodoListApp() {
         {tasks.map((task, index) => (
           <li
             key={index}
-            className="flex items-center justify-between p-2 border-b border-gray-300"
+            className="flex items-center justify-between p-2 border border-gray-300 mb-3"
           >
             <span>{task}</span>
             <button
